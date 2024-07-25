@@ -1,0 +1,8 @@
+insert into catalogos_cat_juegos (descripcion) values 
+    ('Anagrama'),
+    ('Contando Palabras'),
+    ('Palíndromo'),
+    ('Calcula Fechas'),
+    ('Piedra, Papel, Tijera'),
+    ('Los números perdidos'),
+    ('Truco o Trato');

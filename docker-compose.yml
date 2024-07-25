@@ -1,0 +1,19 @@
+services:
+  postgres:
+    container_name: postgres_santillana
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: usr_santillana
+      POSTGRES_DB: db_santillana
+      POSTGRES_PASSWORD: sasa
+      PGDATA: /data/postgres
+    volumes:
+       - postgres-db:/data/postgres
+    ports:
+      - "5434:5432"
+
+
+volumes:
+  postgres-db:
+    driver: local
+
