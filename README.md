@@ -12,9 +12,11 @@ Para crear un entorno virtual se tiene que ejecutar el comando
 ### `[nombre-env] es una variable, es decir, puedes poner cualquier nombre que gustes, como 'entorno', 'env', etc`
 
 Una vez creado se deberán activar el entorno virtual
+
     source nombre-env/bin/activate
 
 Ya activado se deberan instalar las dependencias del archivo requeriments.txt
+
     pip3 install -r requirements.txt
 
 ## Base de datos
