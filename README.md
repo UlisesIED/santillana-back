@@ -17,7 +17,7 @@ Una vez creado se deberán activar el entorno virtual
 
 Ya activado se deberan instalar las dependencias del archivo requeriments.txt
 
-    pip3 install -r requirements.txt
+    pip3 install -r requeriments.txt
 
 ## Base de datos
 
